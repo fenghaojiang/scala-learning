@@ -20,4 +20,7 @@ object Solution {
         // for (i <- 1 to 10) yield i % 3
         //将交出vector(1, 2, 0, 1, 2, 0, 1, 2, 0, 1, 2, 0)  
     }
+
+    def decorate(str:String, left:String="[", right:String="]") = //默认值
+        left + str + right
 }
