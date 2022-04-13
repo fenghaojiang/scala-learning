@@ -16,11 +16,13 @@ object Solution {
 
         for (i <- 0 to 1; c <- "Hello") yield (c + i).toChar
         //将交出vector('H', 'e', 'l', 'l', 'o', 'I'...)  
-
+        
         // for (i <- 1 to 10) yield i % 3
         //将交出vector(1, 2, 0, 1, 2, 0, 1, 2, 0, 1, 2, 0)  
+        println(decorate("Hello"))
     }
 
     def decorate(str:String, left:String="[", right:String="]") = //默认值
         left + str + right
+
 }
