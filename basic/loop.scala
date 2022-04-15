@@ -2,6 +2,11 @@
 
 
 object Solution {
+
+    class ListNode(_x: Int = 0, _next: ListNode = null) {
+        var next: ListNode = _next
+        var x: Int = _x
+    }
     def main(args:Array[String]): Unit = {
         var s = "Hello"
         var sum = 0
@@ -25,4 +30,5 @@ object Solution {
     def decorate(str:String, left:String="[", right:String="]") = //默认值
         left + str + right
 
+    
 }
