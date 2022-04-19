@@ -9,4 +9,9 @@
 |||
 |||
 
-...
+...  
+
+
+```scala
+var bobsScore = scores.getOrElse("Bob", 0)
+```
