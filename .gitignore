@@ -2,3 +2,7 @@
 *.tasty
 .vscode
 .metals
+project/*
+project
+target/*
+target
